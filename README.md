@@ -7,4 +7,4 @@
 
 
 # Guide
-➡️Inside App.js uncomment the first component and checkout that component to understand better
+## ➡️Inside App.js uncomment the first component and checkout that component to understand better
