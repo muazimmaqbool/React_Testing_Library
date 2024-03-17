@@ -7,6 +7,7 @@ import OnChangeTest from './5_Test_onChange/OnChangeTest';
 import ClickTest from './6_Click_Event_Test/ClickTest';
 import Diff_File_Ext from './7 Different File Extensions/Diff_File_Ext';
 import Before_After from './8_Before_Hook/Before_After_hooks';
+import SnapShot from './9_snapShot_testing/SnapShot';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       {/* <ClickTest/> */}
       {/* <Diff_File_Ext/> */}
       {/* <Before_After/> */}
+      <SnapShot/>
     </div>
   );
 }
