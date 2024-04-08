@@ -8,6 +8,7 @@ import ClickTest from './6_Click_Event_Test/ClickTest';
 import Diff_File_Ext from './7 Different File Extensions/Diff_File_Ext';
 import Before_After from './8_Before_Hook/Before_After_hooks';
 import SnapShot from './9_snapShot_testing/SnapShot';
+import FuncOne from './Method Testing In Functional Components/FuncOne';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <ClickTest/> */}
       {/* <Diff_File_Ext/> */}
       {/* <Before_After/> */}
-      <SnapShot/>
+      {/* <SnapShot/> */}
+      <FuncOne/>
     </div>
   );
 }
