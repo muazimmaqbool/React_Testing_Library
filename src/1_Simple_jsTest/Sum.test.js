@@ -18,5 +18,5 @@ test("Test case Two for sum function", () => {
     let b = 15;
     let output = a + b; //check for let output =50
     expect(Sum(a, b)).toBe(output);
-  });
+});
   
