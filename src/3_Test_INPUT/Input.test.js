@@ -16,6 +16,8 @@ test("Testing input box",()=>{
     let isInputBox=screen.getByRole("textbox"); //here we write textbox inplace of input box as its predefined
     expect(isInputBox).toBeInTheDocument(); //this will check is textbox(input box) present in the <Input/> function/component or not
 
+    //now we will check things inside the input box like name, placeholder,value etc...
+
     //checking for placeholder
     let checkPlaceholder=screen.getByPlaceholderText("Enter Your Username")
     expect(checkPlaceholder).toBeInTheDocument();
@@ -31,4 +33,13 @@ test("Testing input box",()=>{
 
     //checking for value attribute of input box
     expect(isInputBox).toHaveAttribute("value","USER123")
+})
+
+//test case for checkbox
+test("Testing checkbox",()=>{
+    render(<Input/>)
+    let isCheckBox=screen.getByRole("checkbox");
+    expect(isCheckBox).toBeInTheDocument();
+
+    expect(isCheckBox).toHaveAttribute("id","checkBoxOne")
 })

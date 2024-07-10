@@ -11,6 +11,11 @@ const Input = () => {
         id="userID"
         value="USER123" 
       />
+
+      <input
+        type="checkbox"
+        id="checkBoxOne"
+      />
     </div>
   );
 };

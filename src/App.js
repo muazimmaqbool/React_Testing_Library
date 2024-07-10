@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       {/* <ReactFunc/> */}
-      {/* <Input/> */}
+      <Input/>
       {/* <InputFile/> */}
       {/* <OnChangeTest/> */}
       {/* <ClickTest/> */}
