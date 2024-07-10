@@ -21,7 +21,7 @@ function App() {
       {/* <Diff_File_Ext/> */}
       {/* <Before_After/> */}
       {/* <SnapShot/> */}
-      <FuncOne/>
+      {/* <FuncOne/> */}
     </div>
   );
 }

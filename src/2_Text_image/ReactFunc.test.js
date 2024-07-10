@@ -17,11 +17,11 @@ test("test case for cricket bat image",()=>{
 })
 
 //we can do these tests together i.e multiple tests in one test case
-test("test case image mand two texts",()=>{
+test("test case image and two texts",()=>{
     render(<ReactFunc/>);
     const text=screen.getByText(/First React Test Case/i) 
-    const textTWO=screen.getByText(/This is New text/i)
-    const imageTitle=screen.getByTitle("Cricket Bat Image");
+    const textTWO=screen.getByText("This is New Text")
+    const imageTitle=screen.getByTitle("Cricket Bat Image"); //here it will also check for text cases
     expect(text).toBeInTheDocument();
     expect(textTWO).toBeInTheDocument();
     expect(imageTitle).toBeInTheDocument();
