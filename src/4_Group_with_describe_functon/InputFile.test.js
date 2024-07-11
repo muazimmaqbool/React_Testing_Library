@@ -21,7 +21,7 @@ test("Testing input box",()=>{
 })
 
 //group above two textcases together
-describe("Test Case Group",()=>{
+describe("Test Case For Group",()=>{
     //here we write the test cases
     test("Test Case One",()=>{
         render(<InputFile/>)
