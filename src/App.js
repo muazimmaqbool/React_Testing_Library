@@ -11,6 +11,7 @@ import SnapShot from './9_snapShot_testing/SnapShot';
 import FuncOne from './10_Method Testing In Functional Components/FuncOne';
 import GetByRole from './11_getByRole_Query/GetByRole';
 import GetByRole_Two from './11_getByRole_Query/GetByRole_Two';
+import GetAllByRole from './12_getAllByRole_Query/GetAllByRole';
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
       {/* <SnapShot/> */}
       {/* <FuncOne/> */}
       {/* <GetByRole/> */}
-      <GetByRole_Two/>
+      {/* <GetByRole_Two/> */}
+      <GetAllByRole/>
     </div>
   );
 }
