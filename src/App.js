@@ -9,6 +9,7 @@ import Diff_File_Ext from './7 Different File Extensions/Diff_File_Ext';
 import Before_After from './8_Before_Hook/Before_After_hooks';
 import SnapShot from './9_snapShot_testing/SnapShot';
 import FuncOne from './10_Method Testing In Functional Components/FuncOne';
+import GetByRole from './11_getByRole_Query/GetByRole';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       {/* <Before_After/> */}
       {/* <SnapShot/> */}
       {/* <FuncOne/> */}
+      <GetByRole/>
     </div>
   );
 }
