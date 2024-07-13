@@ -10,6 +10,7 @@ import Before_After from './8_Before_Hook/Before_After_hooks';
 import SnapShot from './9_snapShot_testing/SnapShot';
 import FuncOne from './10_Method Testing In Functional Components/FuncOne';
 import GetByRole from './11_getByRole_Query/GetByRole';
+import GetByRole_Two from './11_getByRole_Query/GetByRole_Two';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       {/* <Before_After/> */}
       {/* <SnapShot/> */}
       {/* <FuncOne/> */}
-      <GetByRole/>
+      {/* <GetByRole/> */}
+      <GetByRole_Two/>
     </div>
   );
 }
