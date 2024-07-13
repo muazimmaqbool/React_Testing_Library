@@ -15,13 +15,13 @@ function App() {
     <div className="App">
       {/* <ReactFunc/> */}
       {/* <Input/> */}
-      <InputFile/>
+      {/* <InputFile/> */}
       {/* <OnChangeTest/> */}
       {/* <ClickTest/> */}
       {/* <Diff_File_Ext/> */}
       {/* <Before_After/> */}
       {/* <SnapShot/> */}
-      {/* <FuncOne/> */}
+      <FuncOne/>
     </div>
   );
 }

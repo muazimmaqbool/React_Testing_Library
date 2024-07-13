@@ -5,6 +5,7 @@ import handleOtherMethod from "./helper";
 test("method testing case one", () => {
   render(<FuncOne />);
   const btn1 = screen.getByTestId("btn1");
+  //fireevent: allows developers to trigger any event on any element
   fireEvent.click(btn1);
   expect(screen.getByText("Hello React")).toBeInTheDocument();
 });
