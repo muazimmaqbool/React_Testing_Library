@@ -27,7 +27,7 @@ function App() {
       {/* <FuncOne/> */}
       {/* <GetByRole/> */}
       {/* <GetByRole_Two/> */}
-      <GetAllByRole/>
+      {/* <GetAllByRole/> */}
     </div>
   );
 }
