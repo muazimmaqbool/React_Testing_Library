@@ -13,6 +13,7 @@ import GetByRole from './11_getByRole_Query/GetByRole';
 import GetByRole_Two from './11_getByRole_Query/GetByRole_Two';
 import GetAllByRole from './12_getAllByRole_Query/GetAllByRole';
 import GetByLabelText from './13_ getByLabelText/GetByLabelText';
+import GetAllByLabelText from './14_getAllByLabelText/GetAllByLabelText';
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
       {/* <GetByRole/> */}
       {/* <GetByRole_Two/> */}
       {/* <GetAllByRole/> */}
-      <GetByLabelText/>
+      {/* <GetByLabelText/> */}
+      <GetAllByLabelText/>
     </div>
   );
 }
