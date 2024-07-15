@@ -15,7 +15,11 @@ const GetByLabelText = () => {
         {/*the value of "htmlFor" if it matches with the id of an element then this label 
         will be attached to that element automatically */}
         <label htmlFor='user-name'>Username</label>
-        <input type="text" id='user-name'/>
+        <input type="text" id='user-name' defaultValue={"React"}/>
+
+
+        <label htmlFor='payment'>Payment Done</label>
+        <input type="checkbox" id='payment'/>
 
     </div>
   )
