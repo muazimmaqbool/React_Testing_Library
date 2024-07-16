@@ -31,7 +31,7 @@ function App() {
       {/* <GetByRole_Two/> */}
       {/* <GetAllByRole/> */}
       {/* <GetByLabelText/> */}
-      <GetAllByLabelText/>
+      {/* <GetAllByLabelText/> */}
     </div>
   );
 }
