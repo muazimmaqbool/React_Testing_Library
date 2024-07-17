@@ -6,5 +6,7 @@ test("multiple placeHolder test",()=>{
     const inputs=screen.getAllByPlaceholderText("Username")
     for(let i=0;i<inputs.length;i++){
         expect(inputs[i]).toBeInTheDocument()
+        //testing for default value also
+        expect(inputs[i]).toHaveValue("react")
     }
 })
