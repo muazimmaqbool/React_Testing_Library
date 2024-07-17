@@ -14,7 +14,8 @@ import GetByRole_Two from './11_getByRole_Query/GetByRole_Two';
 import GetAllByRole from './12_getAllByRole_Query/GetAllByRole';
 import GetByLabelText from './13_ getByLabelText/GetByLabelText';
 import GetAllByLabelText from './14_getAllByLabelText/GetAllByLabelText';
-
+import GetByPlaceHolderText from './15_getByPlaceHolderText/GetByPlaceHolderText';
+import  GetAllByPlaceholderText from "./15_getByPlaceHolderText/GetAllByPlaceholderText"
 function App() {
   return (
     <div className="App">
@@ -30,8 +31,12 @@ function App() {
       {/* <GetByRole/> */}
       {/* <GetByRole_Two/> */}
       {/* <GetAllByRole/> */}
+
       {/* <GetByLabelText/> */}
       {/* <GetAllByLabelText/> */}
+
+      {/* <GetByPlaceHolderText/> */}
+      < GetAllByPlaceholderText/>
     </div>
   );
 }
