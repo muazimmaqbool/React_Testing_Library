@@ -1,5 +1,6 @@
 import React from 'react'
 
+//lect #25
 const GetByTestId_GetAllByTestId = () => {
   return (
     <div>
