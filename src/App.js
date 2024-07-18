@@ -17,6 +17,7 @@ import GetAllByLabelText from './14_getAllByLabelText/GetAllByLabelText';
 import GetByPlaceHolderText from './15_getByPlaceHolderText/GetByPlaceHolderText';
 import  GetAllByPlaceholderText from "./15_getByPlaceHolderText/GetAllByPlaceholderText"
 import GetByText_GetAllByText from './16_GetByText_GetAllByText/GetByText_GetAllByText';
+import GetByTestId_GetAllByTestId from './17_getByTextId_getAllByTextId/GetByTestId_GetAllByTestId';
 function App() {
   return (
     <div className="App">
@@ -39,7 +40,9 @@ function App() {
       {/* <GetByPlaceHolderText/> */}
       {/* < GetAllByPlaceholderText/> */}
 
-      <GetByText_GetAllByText/>
+      {/* <GetByText_GetAllByText/> */}
+
+      <GetByTestId_GetAllByTestId/>
     </div>
   );
 }
