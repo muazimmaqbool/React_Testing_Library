@@ -19,6 +19,7 @@ import  GetAllByPlaceholderText from "./15_getByPlaceHolderText/GetAllByPlacehol
 import GetByText_GetAllByText from './16_GetByText_GetAllByText/GetByText_GetAllByText';
 import GetByTestId_GetAllByTestId from './17_getByTextId_getAllByTextId/GetByTestId_GetAllByTestId';
 import OverRidingTestId from "./18_OverridingTestId/OverRidingTestId"
+import GetByDisplayValue_GetAllByDisplayValue from './19_getByDisplayValue/GetByDisplayValue_GetAllByDisplayValue';
 function App() {
   return (
     <div className="App">
@@ -42,10 +43,11 @@ function App() {
       {/* < GetAllByPlaceholderText/> */}
 
       {/* <GetByText_GetAllByText/> */}
-
       {/* <GetByTestId_GetAllByTestId/> */}
+      {/* <OverRidingTestId/> */}
+      <GetByDisplayValue_GetAllByDisplayValue/>
 
-      <OverRidingTestId/>
+      
     </div>
   );
 }
