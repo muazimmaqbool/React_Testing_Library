@@ -12,6 +12,9 @@ const GetByDisplayValue_GetAllByDisplayValue = () => {
         {/*testing single element on the basis of display value */}
         {/*will be tested based on the default value */}
         <input type='text' defaultValue={"Javascript"}/>
+        <br/>
+        <br/>
+        <textarea defaultValue={"React Testing library examples"}/>
     </div>
   )
 }

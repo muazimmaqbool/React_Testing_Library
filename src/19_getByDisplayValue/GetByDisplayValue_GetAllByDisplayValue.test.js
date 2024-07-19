@@ -6,4 +6,8 @@ test("testing single element by displayValue",()=>{
     render(<GetByDisplayValue_GetAllByDisplayValue/>)
     const input=screen.getByDisplayValue("Javascript")
     expect(input).toBeInTheDocument()
+    
+    //testing textare
+    const textArea=screen.getByDisplayValue("React Testing library examples")
+    expect(textArea).toBeInTheDocument()
 })
