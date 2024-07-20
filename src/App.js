@@ -20,6 +20,7 @@ import GetByText_GetAllByText from './16_GetByText_GetAllByText/GetByText_GetAll
 import GetByTestId_GetAllByTestId from './17_getByTextId_getAllByTextId/GetByTestId_GetAllByTestId';
 import OverRidingTestId from "./18_OverridingTestId/OverRidingTestId"
 import GetByDisplayValue_GetAllByDisplayValue from './19_getByDisplayValue/GetByDisplayValue_GetAllByDisplayValue';
+import GetByTitle_GetAllByTitle from './20_getByTitle and getAllByTitle/GetByTitle_GetAllByTitle';
 function App() {
   return (
     <div className="App">
@@ -45,7 +46,8 @@ function App() {
       {/* <GetByText_GetAllByText/> */}
       {/* <GetByTestId_GetAllByTestId/> */}
       {/* <OverRidingTestId/> */}
-      <GetByDisplayValue_GetAllByDisplayValue/>
+      {/* <GetByDisplayValue_GetAllByDisplayValue/> */}
+      <GetByTitle_GetAllByTitle/>
 
       
     </div>
