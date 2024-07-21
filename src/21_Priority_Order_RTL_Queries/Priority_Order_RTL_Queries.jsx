@@ -14,6 +14,8 @@ import React from 'react'
   see official documentation for react testing library and inside queries section you will see in which order
   they are defined //https://testing-library.com/docs/queries/about 
   ->follow that pattern
+
+  ?important: if nothing is available then give it a test id and test the element by testId
 */
 
 
