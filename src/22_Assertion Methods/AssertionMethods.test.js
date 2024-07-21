@@ -28,5 +28,20 @@ test("Assertions Methods on input",()=>{
 
     //checking via class
     expect(input).toHaveClass("test-style")
+
+ 
+    //there are many other Assertion Methods
     
+})
+
+//negative test cases i.e checking that element should not be present 
+test("negative test case",()=>{
+    render(<AssertionMethods/>)
+    const btn=screen.getByRole("button");
+   // expect(btn).toBeInTheDocument() //success if button is not commented out the jsx file
+    // expect(btn).not.toBeInTheDocument()
+
+    //checking the button should not have the class "btnOne" if  you change the class "btnOne" it will work
+    // expect(btn).not.toHaveClass("btnOne")
+
 })

@@ -30,6 +30,9 @@ const AssertionMethods = () => {
         id="user-name"
         data-testid="test-input"
       />
+
+
+      <button className="btnOne">Click Me Button</button>
     </div>
   );
 };
