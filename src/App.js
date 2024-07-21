@@ -22,6 +22,7 @@ import OverRidingTestId from "./18_OverridingTestId/OverRidingTestId"
 import GetByDisplayValue_GetAllByDisplayValue from './19_getByDisplayValue/GetByDisplayValue_GetAllByDisplayValue';
 import GetByTitle_GetAllByTitle from './20_getByTitle and getAllByTitle/GetByTitle_GetAllByTitle';
 import Priority_Order_RTL_Queries from './21_Priority_Order_RTL_Queries/Priority_Order_RTL_Queries';
+import AssertionMethods from "./22_Assertion Methods/AssertionMethods"
 function App() {
   return (
     <div className="App">
@@ -50,7 +51,9 @@ function App() {
       {/* <GetByDisplayValue_GetAllByDisplayValue/> */}
       {/* <GetByTitle_GetAllByTitle/> */}
 
-      <Priority_Order_RTL_Queries/>
+      {/* <Priority_Order_RTL_Queries/> */}
+
+      <AssertionMethods/>
 
       
     </div>
