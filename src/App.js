@@ -21,6 +21,7 @@ import GetByTestId_GetAllByTestId from './17_getByTextId_getAllByTextId/GetByTes
 import OverRidingTestId from "./18_OverridingTestId/OverRidingTestId"
 import GetByDisplayValue_GetAllByDisplayValue from './19_getByDisplayValue/GetByDisplayValue_GetAllByDisplayValue';
 import GetByTitle_GetAllByTitle from './20_getByTitle and getAllByTitle/GetByTitle_GetAllByTitle';
+import Priority_Order_RTL_Queries from './21_Priority_Order_RTL_Queries/Priority_Order_RTL_Queries';
 function App() {
   return (
     <div className="App">
@@ -47,7 +48,9 @@ function App() {
       {/* <GetByTestId_GetAllByTestId/> */}
       {/* <OverRidingTestId/> */}
       {/* <GetByDisplayValue_GetAllByDisplayValue/> */}
-      <GetByTitle_GetAllByTitle/>
+      {/* <GetByTitle_GetAllByTitle/> */}
+
+      <Priority_Order_RTL_Queries/>
 
       
     </div>
