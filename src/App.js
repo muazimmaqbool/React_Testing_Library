@@ -26,7 +26,7 @@ import AssertionMethods from "./22_Assertion Methods/AssertionMethods"
 import TextMatch from './23_TextMatch/TextMatch';
 import TextMatch_With_Function from './23_TextMatch/TextMatch_With_Function';
 import QueryBy_QueryAllBy from './24_QueryBy_QueryAllBy/QueryBy_QueryAllBy';
-import FindBy from './25_FindBy/findBy';
+import FindBy from './25_FindBy/FindBy';
 function App() {
   return (
     <div className="App">
