@@ -25,6 +25,7 @@ import Priority_Order_RTL_Queries from './21_Priority_Order_RTL_Queries/Priority
 import AssertionMethods from "./22_Assertion Methods/AssertionMethods"
 import TextMatch from './23_TextMatch/TextMatch';
 import TextMatch_With_Function from './23_TextMatch/TextMatch_With_Function';
+import QueryBy_QueryAllBy from './24_QueryBy_QueryAllBy/QueryBy_QueryAllBy';
 function App() {
   return (
     <div className="App">
@@ -58,8 +59,9 @@ function App() {
       {/* <AssertionMethods/> */}
 
       {/* <TextMatch/> */}
-      <TextMatch_With_Function/>
+      {/* <TextMatch_With_Function/> */}
 
+      <QueryBy_QueryAllBy/>
       
     </div>
   );
