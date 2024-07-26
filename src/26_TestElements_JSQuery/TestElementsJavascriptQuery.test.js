@@ -9,4 +9,7 @@ test("Testing elements with javascript query|Custom Query",()=>{
     expect(divEl).toBeInTheDocument()
     //try for text
     expect(divEl).toHaveTextContent("Hello World")
+    //check whether the element has elements has class attribute or not
+    expect(divEl).toHaveAttribute("class")
 })
+//for testing multiple elements we have: querySelectorAll

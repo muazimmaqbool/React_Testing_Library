@@ -12,7 +12,7 @@ const TestElementsJavascriptQuery = () => {
   return (
     <div>
         <h1>Test Elements Javascript Query</h1>
-        <div id='testId'>Hello World</div>
+        <div id='testId' className='testName'>Hello World</div>
     </div>
   )
 }
