@@ -27,6 +27,7 @@ import TextMatch from './23_TextMatch/TextMatch';
 import TextMatch_With_Function from './23_TextMatch/TextMatch_With_Function';
 import QueryBy_QueryAllBy from './24_QueryBy_QueryAllBy/QueryBy_QueryAllBy';
 import FindBy_FindAllBy from './25_FindBy/FindBy_FindAllBy';
+import TestElementsJavascriptQuery from './26_TestElements_JSQuery/TestElementsJavascriptQuery';
 function App() {
   return (
     <div className="App">
@@ -63,7 +64,8 @@ function App() {
       {/* <TextMatch_With_Function/> */}
 
       {/* <QueryBy_QueryAllBy/> */}
-      <FindBy_FindAllBy/>
+      {/* <FindBy_FindAllBy/> */}
+      <TestElementsJavascriptQuery/>
       
     </div>
   );
