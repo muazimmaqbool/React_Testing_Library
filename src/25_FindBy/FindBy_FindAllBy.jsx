@@ -23,7 +23,7 @@ const FindBy = () => {
   useEffect(() => {
     setTimeout(() => {
       setshowData(true)
-    }, 1000);
+    }, 3000);
   }, []);
   return (
     <div>
