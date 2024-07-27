@@ -30,6 +30,7 @@ import FindBy_FindAllBy from './25_FindBy/FindBy_FindAllBy';
 import TestElementsJavascriptQuery from './26_TestElements_JSQuery/TestElementsJavascriptQuery';
 import QueryingWithinElements from './27_Querying Within Elements/QueryingWithinElements';
 import OnChange_Testing from './28_onChange Testing/OnChange_Testing';
+import ActFunction from './29_Act Function/ActFunction';
 function App() {
   return (
     <div className="App">
@@ -70,7 +71,8 @@ function App() {
       {/* <TestElementsJavascriptQuery/> */}
       {/* <QueryingWithinElements/> */}
 
-      <OnChange_Testing/>
+      {/* <OnChange_Testing/> */}
+      <ActFunction/>
       
     </div>
   );

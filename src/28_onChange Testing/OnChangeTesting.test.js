@@ -3,7 +3,7 @@ import OnChange_Testing from "./OnChange_Testing"
 import userEvent from "@testing-library/user-event"
 
 test("onChange event testing", async ()=>{
-    userEvent.setp()
+    userEvent.setup()
     render(<OnChange_Testing/>)
     const inputEl=screen.getByRole("textbox")
     await userEvent.type(inputEl,"Muazim")
