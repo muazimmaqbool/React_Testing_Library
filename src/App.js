@@ -31,6 +31,7 @@ import TestElementsJavascriptQuery from './26_TestElements_JSQuery/TestElementsJ
 import QueryingWithinElements from './27_Querying Within Elements/QueryingWithinElements';
 import OnChange_Testing from './28_onChange Testing/OnChange_Testing';
 import ActFunction from './29_Act Function/ActFunction';
+import TestComp_Props from './30_Test  Component Props/TestComp_Props';
 function App() {
   return (
     <div className="App">
@@ -72,7 +73,9 @@ function App() {
       {/* <QueryingWithinElements/> */}
 
       {/* <OnChange_Testing/> */}
-      <ActFunction/>
+      {/* <ActFunction/> */}
+
+      <TestComp_Props/>
       
     </div>
   );
