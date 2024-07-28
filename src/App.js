@@ -33,6 +33,7 @@ import OnChange_Testing from './28_onChange Testing/OnChange_Testing';
 import ActFunction from './29_Act Function/ActFunction';
 import TestComp_Props from './30_Test  Component Props/TestComp_Props';
 import FunctionPropsTesting from './31_Functional Props Testing and Mocking/FunctionPropsTesting';
+import Debugging from './32_Debugging/Debugging';
 function App() {
   return (
     <div className="App">
@@ -77,8 +78,9 @@ function App() {
       {/* <ActFunction/> */}
 
       {/* <TestComp_Props/> */}
-      <FunctionPropsTesting/>
-      
+      {/* <FunctionPropsTesting/> */}
+      <Debugging/>
+
     </div>
   );
 }
