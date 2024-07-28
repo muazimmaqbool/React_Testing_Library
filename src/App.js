@@ -35,6 +35,7 @@ import TestComp_Props from './30_Test  Component Props/TestComp_Props';
 import FunctionPropsTesting from './31_Functional Props Testing and Mocking/FunctionPropsTesting';
 import Debugging from './32_Debugging/Debugging';
 import Playground_Extension from './33_PlayGround Chrome ext/Playground_Extension';
+import API_Testing from './35_API Testing/API_Testing';
 function App() {
   return (
     <div className="App">
@@ -83,6 +84,8 @@ function App() {
       {/* <Debugging/> */}
 
       {/* <Playground_Extension/> */}
+
+      <API_Testing/>
 
     </div>
   );
