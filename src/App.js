@@ -32,6 +32,7 @@ import QueryingWithinElements from './27_Querying Within Elements/QueryingWithin
 import OnChange_Testing from './28_onChange Testing/OnChange_Testing';
 import ActFunction from './29_Act Function/ActFunction';
 import TestComp_Props from './30_Test  Component Props/TestComp_Props';
+import FunctionPropsTesting from './31_Functional Props Testing and Mocking/FunctionPropsTesting';
 function App() {
   return (
     <div className="App">
@@ -75,7 +76,8 @@ function App() {
       {/* <OnChange_Testing/> */}
       {/* <ActFunction/> */}
 
-      <TestComp_Props/>
+      {/* <TestComp_Props/> */}
+      <FunctionPropsTesting/>
       
     </div>
   );
