@@ -82,7 +82,7 @@ function App() {
       {/* <FunctionPropsTesting/> */}
       {/* <Debugging/> */}
 
-      <Playground_Extension/>
+      {/* <Playground_Extension/> */}
 
     </div>
   );
