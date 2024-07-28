@@ -19,7 +19,7 @@ import React from 'react'
 const FunctionPropsTesting = (props) => {
   return (
     <div>
-        <h1>>Functional Props Testing and mocking</h1>
+        <h1>Functional Props Testing and mocking</h1>
         <button onClick={props.testFunction}>Click Me</button>
     </div>
   )
