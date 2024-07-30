@@ -1,6 +1,6 @@
 import { render,screen } from "@testing-library/react";
 import ReactFunc from "./ReactFunc";
-
+import '@testing-library/jest-dom/extend-expect'; 
 //for text
 test("first test case for react",()=>{
     render(<ReactFunc/>);

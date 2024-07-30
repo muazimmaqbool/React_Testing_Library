@@ -4,7 +4,7 @@
 // learn more: https://github.com/testing-library/jest-dom
 import '@testing-library/jest-dom';
 
-import { server } from './server';
+import { server } from './35_API Testing/Mock Services/server';
 //means whenever your server starts , start learning to it
 beforeAll(()=>server.listen());
 
