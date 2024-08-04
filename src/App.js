@@ -39,8 +39,8 @@ import API_Testing from './35_API Testing/API_Testing';
 function App() {
   return (
     <div className="App">
-      {/*<ReactFunc/>*/}
-      {/* <Input/> */}
+      {/* <ReactFunc/> */}
+      <Input/>
       {/* <InputFile/> */}
       {/* <OnChangeTest/> */}
       {/* <ClickTest/> */}
