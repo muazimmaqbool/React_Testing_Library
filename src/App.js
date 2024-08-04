@@ -40,8 +40,8 @@ function App() {
   return (
     <div className="App">
       {/* <ReactFunc/> */}
-      <Input/>
-      {/* <InputFile/> */}
+      {/* <Input/> */}
+      <InputFile/>
       {/* <OnChangeTest/> */}
       {/* <ClickTest/> */}
       {/* <Diff_File_Ext/> */}

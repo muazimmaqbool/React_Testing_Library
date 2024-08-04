@@ -1,7 +1,7 @@
 import { render ,screen} from "@testing-library/react";
 import InputFile from "./InputFile";
 
-test("Test case for test",()=>{
+test("Test case for text",()=>{
     render(<InputFile/>)
     const text=screen.getByText("Test Case Grouping");
     expect(text).toBeInTheDocument();

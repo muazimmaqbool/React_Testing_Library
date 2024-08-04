@@ -1,7 +1,7 @@
 import { render ,screen} from "@testing-library/react";
 import Input from "./Input";
 
-test("Test case 1",()=>{
+test("Test case for heading",()=>{
     render(<Input/>)
     const test=screen.getByText("Testing Input Box");
     expect(test).toBeInTheDocument();
