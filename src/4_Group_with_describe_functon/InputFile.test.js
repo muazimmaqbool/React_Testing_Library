@@ -3,7 +3,7 @@ import InputFile from "./InputFile";
 
 test("Test case for text",()=>{
     render(<InputFile/>)
-    const text=screen.getByText("Test Case Grouping");
+    const text=screen.getByText(/Test Case Grouping/i);//will not check for letter cases
     expect(text).toBeInTheDocument();
 })
 
