@@ -41,8 +41,8 @@ function App() {
     <div className="App">
       {/* <ReactFunc/> */}
       {/* <Input/> */}
-      <InputFile/>
-      {/* <OnChangeTest/> */}
+      {/* <InputFile/> */}
+      <OnChangeTest/>
       {/* <ClickTest/> */}
       {/* <Diff_File_Ext/> */}
       {/* <Before_After/> */}

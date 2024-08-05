@@ -8,9 +8,12 @@ test("onChnage event testing",()=>{
     render(<OnChangeTest/>);
     //checking is input field present on screen or not
     let isInput=screen.getByRole("textbox")
-    /*fireEvent: fires event which we want to call/fire : here we want to fire change event i.e: fireEvent.change()
+    /*fireEvent: fires event which we want to call/fire : 
+    here we want to fire change event i.e: fireEvent.change()
     -> here we want to fire change event on isInput i.e: fireEvent.change(isInput,{})
-    ->after fireing change event on isInput ,no we will check thats it has target and inside it is a value if i type "a" output should also be a which we check in expect
+    ->after fireing change event on isInput ,
+    now we will check that's it has target and inside it is a value if i type "a"
+                 output should also be a which we check in expect
     */
     fireEvent.change(isInput,{target:{value:'a'}});
     //means isInput should contain value 'a' if 'a' is typed
