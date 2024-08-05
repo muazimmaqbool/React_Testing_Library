@@ -42,8 +42,8 @@ function App() {
       {/* <ReactFunc/> */}
       {/* <Input/> */}
       {/* <InputFile/> */}
-      <OnChangeTest/>
-      {/* <ClickTest/> */}
+      {/* <OnChangeTest/> */}
+      <ClickTest/>
       {/* <Diff_File_Ext/> */}
       {/* <Before_After/> */}
       {/* <SnapShot/> */}

@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 
 const ClickTest = () => {
  //here in this example we will test that is the text getting changed with the help of state and button 
- //basically when we click on the button the text data state variable should get updated and we will test it in out test file
- //is it getting updated or not
+ //basically when we click on the button the text data state variable should get updated and we will
+ // test it in out in the test file is it getting updated or not
 const [data, setData] = useState("")
   return (
     <div>
