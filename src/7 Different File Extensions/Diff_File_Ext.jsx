@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 //this component has 4 different test cases with different extensions
-//this component also has 1 test file with name __tests__ and inside it we also have above 4 test files without the test/spec extensions 
+//this component also has 1 test file with name __tests__ and inside it we also have above 4
+// test files without the test/spec extensions 
 //inside __tests__ extentions of tests is not necessary
 
 const Diff_File_Ext = () => {

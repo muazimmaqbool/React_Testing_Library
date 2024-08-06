@@ -43,8 +43,8 @@ function App() {
       {/* <Input/> */}
       {/* <InputFile/> */}
       {/* <OnChangeTest/> */}
-      <ClickTest/>
-      {/* <Diff_File_Ext/> */}
+      {/* <ClickTest/> */}
+      <Diff_File_Ext/>
       {/* <Before_After/> */}
       {/* <SnapShot/> */}
       {/* <FuncOne/> */}
