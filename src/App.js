@@ -44,8 +44,8 @@ function App() {
       {/* <InputFile/> */}
       {/* <OnChangeTest/> */}
       {/* <ClickTest/> */}
-      <Diff_File_Ext/>
-      {/* <Before_After/> */}
+      {/* <Diff_File_Ext/> */}
+      <Before_After/>
       {/* <SnapShot/> */}
       {/* <FuncOne/> */}
       {/* <GetByRole/> */}

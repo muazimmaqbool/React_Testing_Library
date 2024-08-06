@@ -2,14 +2,14 @@ import { fireEvent, render, screen } from "@testing-library/react";
 import Before_After from "./Before_After_hooks";
 import cleanDataBase from "./cleandatabase";
 
-//?befoeAll hook (will be runned only once before all test cases)
+//?befoeAll hook (will run only once before all test cases)
 // beforeAll(() => {
 //   console.log("beforeAll hook runs..."); //it will be displayed in terminal
 // });
 
 //?beforeEach hook (it will run before all test cases i.e 3 times (sice we have 3 test cases))
 beforeEach(()=>{
-   // console.log("beforeEach Hook runs...")
+  // console.log("beforeEach Hook runs...")
    cleanDataBase(); //this function is called before each test case, this way you call call any API etc before and afer test cases
 })
 
@@ -42,9 +42,9 @@ test("Test case 3", () => {
 //we can write these hook before test cases as well
 
 //?afterAll hook (will be runned only once after all test cases)
-// afterAll(()=>{
-//     console.log("afterAll hook runs....")
-// })
+afterAll(()=>{
+    console.log("afterAll hook runs....")
+})
 
 //?afterEach hook (it will run after all test cases i.e 3 times (sice we have 3 test cases))
 // afterEach(()=>{

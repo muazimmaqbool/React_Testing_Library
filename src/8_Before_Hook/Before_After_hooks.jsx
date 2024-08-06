@@ -1,6 +1,15 @@
 import React, { useState } from 'react'
 
-//here we have two beforeAll and BeforeEach , check notes
+/*
+-> beforeAll and beforeEach hooks will run before each the test cases
+    beforeAll will run before all the test cases
+    beforeEach will run before each of the test cases
+
+-> afterAll and afterEach hooks will run after each the test cases
+    afterAll will run after all the test cases
+    afterEach will run after each of the test cases
+
+*/
 
 const Before_Hook = () => {
     const [data, setData] = useState("")
