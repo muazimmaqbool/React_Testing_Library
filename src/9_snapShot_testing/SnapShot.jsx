@@ -22,7 +22,7 @@ const SnapShot = () => {
   const [data, setData] = useState("");
   return (
     <div>
-      <h1>Snapshot Testing Example</h1>
+      <h1>Snapshot Testing</h1>
       <button onClick={() => setData("New Data")}>Update Text</button>
       <h1>{data}</h1>
     </div>
