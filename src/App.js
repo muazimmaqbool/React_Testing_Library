@@ -53,8 +53,8 @@ function App() {
       {/* <GetByRole_Two/> */}
       {/* <GetAllByRole/> */}
 
-      <GetByLabelText/>
-      {/* <GetAllByLabelText/> */}
+      {/* <GetByLabelText/> */}
+      <GetAllByLabelText/>
 
       {/* <GetByPlaceHolderText/> */}
       {/* < GetAllByPlaceholderText/> */}

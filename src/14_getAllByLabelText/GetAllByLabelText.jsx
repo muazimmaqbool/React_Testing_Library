@@ -3,8 +3,8 @@ import React from "react";
 /*
 -> getAllByLabelText | Lec #22
 
--> getAllByLabelText is used to text all the elements with same label text/attributes
-  basically its used to test multiple elements at the same time
+-> getAllByLabelText is used to test all the elements with same label text/attributes
+  basically its used to test multiple elements using labeltext at the same time
 
 */
 
