@@ -47,9 +47,10 @@ function App() {
       {/* <Diff_File_Ext/> */}
       {/* <Before_After/> */}
       {/* <SnapShot/> */}
-      <FuncOne/>
+      {/* <FuncOne/> */}
+
       {/* <GetByRole/> */}
-      {/* <GetByRole_Two/> */}
+      <GetByRole_Two/>
       {/* <GetAllByRole/> */}
 
       {/* <GetByLabelText/> */}
