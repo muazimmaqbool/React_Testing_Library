@@ -5,10 +5,10 @@ import GetByRole_Two from "./GetByRole_Two"
 test("multiple button test",()=>{
     render(<GetByRole_Two/>);
 
-    //this works fine when we have only one button on screen, but with many buttons test case will fail
     //const btn1=screen.getByRole("button");
+    //this works fine when we have only one button on screen, but with many buttons test case will fail
 
-    //now it will test button which has test "BTN ONE" and test case will pass
+    //now it will test button which has text "BTN ONE" and test case will pass
     const btn1=screen.getByRole("button",{name:"BTN ONE"});
     //similarly can test for button two
     const btn2=screen.getByRole("button",{name:"BTN TWO"});

@@ -19,8 +19,10 @@ const GetByRole_Two = () => {
         {/*using this will be hard for multiple input box testing so we use label */}
         {/* <input type='text'/>
         <input type='text'/> */}
+        
         <label htmlFor='input1'>User Name:</label>
         <input type='text' id='input1'/>
+
         <label htmlFor='input2'>Email:</label>
         <input type='text' id='input2'/>
 
