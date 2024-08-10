@@ -6,7 +6,7 @@ test("getAllByRole buttons Test case",()=>{
     render(<GetAllByRole/>);
     const btns=screen.getAllByRole("button")
 
-    //when used getAllByRole the returned value is in array
+    //when used getAllByRole the returned value is an array
     //expect(btns[0]).toBeInTheDocument() //will check for first element/button
     //expect(btns[1]).toBeInTheDocument() //will check for second element/button
 

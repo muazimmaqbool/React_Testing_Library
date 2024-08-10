@@ -50,8 +50,8 @@ function App() {
       {/* <FuncOne/> */}
 
       {/* <GetByRole/> */}
-      <GetByRole_Two/>
-      {/* <GetAllByRole/> */}
+      {/* <GetByRole_Two/> */}
+      <GetAllByRole/>
 
       {/* <GetByLabelText/> */}
       {/* <GetAllByLabelText/> */}

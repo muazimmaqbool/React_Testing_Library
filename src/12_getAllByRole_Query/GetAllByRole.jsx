@@ -16,7 +16,7 @@ const GetAllByRole = () => {
     <div>
         <h1>GetAllByRole Query</h1>
 
-        {/*here both buttons are same with no attribute so we use getAllByRole */}
+        {/*here all buttons are same with no attribute so we use getAllByRole */}
         <button>Click Me</button>
         <button>Click Me</button>
         <button>Click Me</button>
