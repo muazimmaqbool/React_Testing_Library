@@ -16,6 +16,11 @@ const GetByText_GetAllByText = () => {
         <button>Btn Test</button>
         <button>Btn Test</button>
         <button>Btn Test</button>
+
+        <h3>This is H3</h3>
+        <h3>This is H3</h3>
+        <h3>This is H3</h3>
+        <h3>This is H3</h3>
     </div>
   )
 }

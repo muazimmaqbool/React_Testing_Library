@@ -27,3 +27,14 @@ test("multiple buttons test case",()=>{
 
 
 //similarly do multiple headings, p tags , etc... testing
+
+//test case for testing multiple headings via text
+test("multiple headings testing",()=>{
+    render(<GetByText_GetAllByText/>);
+    const h3s=screen.getAllByText(/this is h3/i)
+    //adding text like this: /this is h3/i , won't check for uppercase and lowercase
+
+    for(let i=0; i<h3s.length;i++){
+        expect(h3s[i]).toBeInTheDocument()
+    }
+})
