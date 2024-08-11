@@ -1,5 +1,7 @@
 import React from 'react'
 
+//here we will test an element using the placeholder text of the element
+//usually its done on input fields
 const GetByPlaceHolderText = () => {
   return (
     <div>
