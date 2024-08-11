@@ -56,8 +56,8 @@ function App() {
       {/* <GetByLabelText/> */}
       {/* <GetAllByLabelText/> */}
 
-      <GetByPlaceHolderText/>
-      {/* < GetAllByPlaceholderText/> */}
+      {/* <GetByPlaceHolderText/> */}
+      < GetAllByPlaceholderText/>
 
       {/* <GetByText_GetAllByText/> */}
       {/* <GetByTestId_GetAllByTestId/> */}
