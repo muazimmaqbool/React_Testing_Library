@@ -59,8 +59,9 @@ function App() {
       {/* <GetByPlaceHolderText/> */}
       {/* < GetAllByPlaceholderText/> */}
 
-      <GetByText_GetAllByText/>
-      {/* <GetByTestId_GetAllByTestId/> */}
+      {/* <GetByText_GetAllByText/> */}
+      <GetByTestId_GetAllByTestId/>
+
       {/* <OverRidingTestId/> */}
       {/* <GetByDisplayValue_GetAllByDisplayValue/> */}
       {/* <GetByTitle_GetAllByTitle/> */}

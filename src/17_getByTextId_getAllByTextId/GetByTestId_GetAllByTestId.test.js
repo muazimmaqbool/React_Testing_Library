@@ -16,3 +16,12 @@ test("getAllByTextId test case example",()=>{
         expect(h3Tags[i]).toBeInTheDocument()
     }
 })
+
+//testing multiple buttons using test id
+test("multiple buttons testing using testid",()=>{
+    render(<GetByTestId_GetAllByTestId/>)
+    const btns=screen.getAllByTestId("btn-test-id")
+    for(let i=0; i<btns.length; i++){
+        expect(btns[i]).toBeInTheDocument()
+    }
+})
