@@ -9,12 +9,15 @@ const GetByTitle_GetAllByTitle = () => {
     <div>
         <h1>GetByTitle and GetAllByTitle</h1>
 
+        {/*testubg single elements via getByTitle */}
         <button title='click me button'>Click Me</button>
         <br/>
         <br/>
         <span title='black spade icon'>&#x2660;</span>
         <br/>
         <br/>
+
+        {/*testing multiple elements via getAllByTitle */}
         <button title='see more button'>See More</button>
         <button title='see more button'>See More</button>
         <button title='see more button'>See More</button>

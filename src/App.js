@@ -64,8 +64,8 @@ function App() {
 
       {/* <OverRidingTestId/> */}
 
-      <GetByDisplayValue_GetAllByDisplayValue/>
-      {/* <GetByTitle_GetAllByTitle/> */}
+      {/* <GetByDisplayValue_GetAllByDisplayValue/> */}
+      <GetByTitle_GetAllByTitle/>
 
       {/* <Priority_Order_RTL_Queries/> */}
 
