@@ -4,8 +4,8 @@ import React from 'react'
 lec #26
 ->overriding test id:
 ->Why need to override test id?
-ANS: If an element have already an  unique id attribute then we need to use this id for testing rather than
-        giving seperate id for testing
+ANS: If an element have already a unique id attribute then we need to use
+     this id for testing rather than giving seperate id for testing
 
 */
 
