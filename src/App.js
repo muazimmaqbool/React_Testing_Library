@@ -62,9 +62,9 @@ function App() {
       {/* <GetByText_GetAllByText/> */}
       {/* <GetByTestId_GetAllByTestId/> */}
 
-      <OverRidingTestId/>
+      {/* <OverRidingTestId/> */}
 
-      {/* <GetByDisplayValue_GetAllByDisplayValue/> */}
+      <GetByDisplayValue_GetAllByDisplayValue/>
       {/* <GetByTitle_GetAllByTitle/> */}
 
       {/* <Priority_Order_RTL_Queries/> */}

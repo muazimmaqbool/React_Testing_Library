@@ -2,7 +2,8 @@ import React from 'react'
 
 //lec #27
 //use getByDisplayValue and getAllByDisplayValue when you want to do testing of the element on the basis of
-// of its value
+// of its value that has been displayed on the ui
+//this checks basically default values of the elements
 
 const GetByDisplayValue_GetAllByDisplayValue = () => {
   return (
@@ -17,7 +18,7 @@ const GetByDisplayValue_GetAllByDisplayValue = () => {
         <textarea defaultValue={"React Testing library examples"}/>
         <br/>
         <br/>
-        <input type='radio' defaultValue={"Male"}/>
+        <input type='radio' defaultValue={"MALE"}/>
         <br/>
         <br/>
         

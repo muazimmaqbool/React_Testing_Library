@@ -7,13 +7,14 @@ test("testing single element by displayValue",()=>{
     const input=screen.getByDisplayValue("Javascript")
     expect(input).toBeInTheDocument()
     
-    //testing textare
+    //testing textarea
     const textArea=screen.getByDisplayValue("React Testing library examples")
     expect(textArea).toBeInTheDocument()
 
     //testing radio button
-    const radioBtn=screen.getByDisplayValue("Male")
+    const radioBtn=screen.getByDisplayValue(/male/i)
     expect(radioBtn).toBeInTheDocument()
+
 
 })
 
