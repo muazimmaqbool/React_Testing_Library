@@ -19,6 +19,7 @@ test("Assertions Methods on input",()=>{
 
     //if input is disabled and you want to test it
     //expect(input).toBeDisabled() //commented so it won't fail
+    //to make it work first add disabled attribute to the input field in jsx file
 
     //checking whether it has some specific attribute or not like id
     expect(input).toHaveAttribute("id")
@@ -38,10 +39,11 @@ test("Assertions Methods on input",()=>{
 test("negative test case",()=>{
     render(<AssertionMethods/>)
     const btn=screen.getByRole("button");
-   // expect(btn).toBeInTheDocument() //success if button is not commented out the jsx file
-    // expect(btn).not.toBeInTheDocument()
+    expect(btn).toBeInTheDocument() //success if button is not commented in the jsx file
+
+    // expect(btn).not.toBeInTheDocument() //success if button is commented in the jsx file
 
     //checking the button should not have the class "btnOne" if  you change the class "btnOne" it will work
-    // expect(btn).not.toHaveClass("btnOne")
+   // expect(btn).not.toHaveClass("btnOne")
 
 })

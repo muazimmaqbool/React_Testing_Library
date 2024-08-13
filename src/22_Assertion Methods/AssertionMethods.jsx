@@ -11,7 +11,7 @@ import React from "react";
     i.e expect(img) : we are checking whether this img is present in the document or not.
     so: expect() is "Assert or Assertion"
     and toBeInTheDocument() is "Assert method or Assertion Method"
-    ->with the help of "Assert method" we test an element
+    ->with the help of "Assert method" we can test an element
 
 ->Here in this example we will see various assertions methods inside test file
     we will see around 10 assertions methods
