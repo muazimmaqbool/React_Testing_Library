@@ -69,10 +69,10 @@ function App() {
 
       {/* <Priority_Order_RTL_Queries/> */}
 
-      <AssertionMethods/>
+      {/* <AssertionMethods/> */}
 
       {/* <TextMatch/> */}
-      {/* <TextMatch_With_Function/> */}
+      <TextMatch_With_Function/>
 
       {/* <QueryBy_QueryAllBy/> */}
       {/* <FindBy_FindAllBy/> */}

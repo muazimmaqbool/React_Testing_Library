@@ -1,8 +1,10 @@
 import { render, screen } from "@testing-library/react"
 import TextMatch from "./TextMatch"
 
-//when we test it we check Text and it should be same in ui but what if the fist letter is is "UpperCase" or "LowerCase"
-//then test case fails to avoid that we pass second argument to tell it letters could be uppercase and lowercase
+/*when we test it we check Text and it should be same in ui but what if the fist
+ letter is is "UpperCase" or "LowerCase", then test case fails to avoid that we pass 
+ second argument to tell it letters could be uppercase and lowercase
+*/
 
 test("Text match with string",()=>{
     render(<TextMatch/>)
@@ -23,7 +25,7 @@ test("Text match with regex",()=>{
     //here it will check that hello should be included
     //const div=screen.getByText(/Hello/);//works
     
-    //lo wo should be included in the string/ui/div
+    //lo wo : should be included in the string/ui/div
     const div=screen.getByText(/lo Wo/);//works
     expect(div).toBeInTheDocument()
 })

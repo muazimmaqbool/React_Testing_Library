@@ -4,7 +4,7 @@ import TextMatch_With_Function from "./TextMatch_With_Function"
 test("TextMatch With Function",()=>{
     render(<TextMatch_With_Function/>)
 
-    //element is second argument an its optional
+    //element is second argument and its optional
     //here this callback function will check whether the text in ui/element starts with "Hello"
    // const divEl=screen.getByText((text,element)=>text.startsWith("Hello"))
 
