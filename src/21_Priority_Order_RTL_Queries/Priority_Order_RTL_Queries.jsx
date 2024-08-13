@@ -9,7 +9,7 @@ import React from 'react'
   either by id, title, role etc
 
   ->The first priority is given to test an element by role i.e getByRole
-  then if role is not present then by label Text i.e getByLabel then > placeholder Text then by> text etc
+  then if role is not present then by label Text i.e getByLabel then > placeholder Text then by> getByPlaceholderText etc
 
   see official documentation for react testing library and inside queries section you will see in which order
   they are defined //https://testing-library.com/docs/queries/about 

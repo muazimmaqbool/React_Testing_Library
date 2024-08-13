@@ -65,11 +65,11 @@ function App() {
       {/* <OverRidingTestId/> */}
 
       {/* <GetByDisplayValue_GetAllByDisplayValue/> */}
-      <GetByTitle_GetAllByTitle/>
+      {/* <GetByTitle_GetAllByTitle/> */}
 
       {/* <Priority_Order_RTL_Queries/> */}
 
-      {/* <AssertionMethods/> */}
+      <AssertionMethods/>
 
       {/* <TextMatch/> */}
       {/* <TextMatch_With_Function/> */}
