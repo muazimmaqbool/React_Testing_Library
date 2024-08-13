@@ -14,7 +14,7 @@ test("TextMatch With Function",()=>{
 
 
    //it will check whether the text in ui contains this text/string
-    const divEl=screen.getByText((text,element)=>{
+    const divEl=screen.getByText((text)=>{
         return text.includes("rl")
     })
 
