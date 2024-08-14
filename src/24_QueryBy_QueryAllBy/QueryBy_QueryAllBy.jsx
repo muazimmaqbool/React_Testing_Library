@@ -27,11 +27,22 @@ import React from "react";
 const QueryBy_QueryAllBy = () => {
   //when login is true Logout button will be display and when false Login button will be displayed
   let login = false;
+  let showText=false;
   return (
     <div>
       <h1>queryBy and queryAllBy</h1>
 
       {login ? <button>Logout</button> : <button>Login</button>}
+      
+      {/*testing these multiple h2 tags using queryBy the will be hidden first */}
+      {
+        showText && <div>
+          <h2>Heading Two</h2>
+          <h2>Heading Two</h2>
+          <h2>Heading Two</h2>
+          <h2>Heading Two</h2>
+        </div>
+      }
     </div>
   );
 };
