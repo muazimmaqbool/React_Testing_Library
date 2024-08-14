@@ -72,9 +72,9 @@ function App() {
       {/* <AssertionMethods/> */}
 
       {/* <TextMatch/> */}
-      <TextMatch_With_Function/>
+      {/* <TextMatch_With_Function/> */}
 
-      {/* <QueryBy_QueryAllBy/> */}
+      <QueryBy_QueryAllBy/>
       {/* <FindBy_FindAllBy/> */}
       {/* <TestElementsJavascriptQuery/> */}
       {/* <QueryingWithinElements/> */}

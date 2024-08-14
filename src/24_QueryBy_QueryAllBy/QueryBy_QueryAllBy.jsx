@@ -4,13 +4,15 @@ import React from "react";
 /*
 ->queryBy and queryAllBy
 
--> Earlier we checked the getBy Query And it was almost 10 methods that we checked: getByText,getById etc...
+-> Earlier we checked the getBy Query And it has almost 10 methods that we checked:
+    getByText,getById etc...
+
 -> Now we will check the queryBy query and it has almost same 10 methods like:
         queryByText, queryById, etc...
-    Note: will will not go through all of these we see basic rest will be same
+    Note: we will not go through all of these we will see basic ones rest will be same
 
 ->Why we use queryBy:
-    ANS: queryBy has an extra feature which getBy don't have is that if your element is hidden
+    ANS: queryBy has an extra feature which getBy don't have, that is if your element is hidden
          in the ui, still you can test that element using queryBy.
 
 -> In our button example we will display Login and Logout buttons but one at a time and hide other
@@ -20,7 +22,7 @@ import React from "react";
 //if you want to test single element which is hidden use queryBy and if you want to test
 // multiple elements use queryAllBy
 
-//if you test the hidden element will getBy it will fail
+//if you test the hidden element using getBy it will fail
 
 const QueryBy_QueryAllBy = () => {
   //when login is true Logout button will be display and when false Login button will be displayed
