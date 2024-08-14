@@ -13,8 +13,9 @@ test("Testing using findBy",async ()=>{
     //or after 1 second it fails
     //try 1000 value in jsx code in setTimeout and then try for less then 1 second
 
-    //Now what if load time is higher then 1 second then use third parameter(second parameter is optional)
-    //screen.findByText("Data Is Loaded",{},{timeout:4000})
+    //Now what if load time is higher then 1 second then use third parameter(second parameter
+    // is optional) screen.findByText("Data Is Loaded",{},{timeout:4000})
+
     const el=await screen.findByText("Data Is Loaded",{},{timeout:4000})//test case will run in 4 seconds
     //now try 3 seconds time in setTimeout and then try
 
@@ -24,3 +25,10 @@ test("Testing using findBy",async ()=>{
 })
 
 //findAllBy used in same way as getAllBy
+test("testing multiple elements using findAllBy",async ()=>{
+    render(<FindBy_FindAllBy/>)
+    const infoTexts=await screen.findAllByText("Info Data",{},{timeout:4000});
+    for(let i=0;i<infoTexts.length;i++){
+        expect(infoTexts[i]).toBeInTheDocument()
+    }
+})
