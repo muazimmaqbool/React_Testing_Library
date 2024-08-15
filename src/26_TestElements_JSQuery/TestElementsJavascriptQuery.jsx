@@ -13,6 +13,14 @@ const TestElementsJavascriptQuery = () => {
     <div>
         <h1>Test Elements Javascript Query</h1>
         <div id='testId' className='testName'>Hello World</div>
+
+        {/*checking for multiple elements with customQuery */}
+        <div>
+          <h4 id='h4Id'>Heading h4</h4>
+          <h4 id='h4Id'>Heading h4</h4>
+          <h4 id='h4Id'>Heading h4</h4>
+          <h4 id='h4Id'>Heading h4</h4>
+        </div>
     </div>
   )
 }

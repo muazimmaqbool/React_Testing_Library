@@ -75,8 +75,9 @@ function App() {
       {/* <TextMatch_With_Function/> */}
 
       {/* <QueryBy_QueryAllBy/> */}
-      <FindBy_FindAllBy/>
-      {/* <TestElementsJavascriptQuery/> */}
+      {/* <FindBy_FindAllBy/> */}
+
+      <TestElementsJavascriptQuery/>
       {/* <QueryingWithinElements/> */}
 
       {/* <OnChange_Testing/> */}
