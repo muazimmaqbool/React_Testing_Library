@@ -6,7 +6,7 @@ import React from 'react'
     used when you want to test children elements with parents element
     example : you want to test some p tags which are inside div tag(parent element)
 
-    here in our code we want to test that inside div with text "Hekki" should have p element with
+    here in our code we want to test that inside div with text "Hello world" should have p element with
     text "Child Tag"
 
     for this we use querying Within Elements: what it will do is that inside an element
