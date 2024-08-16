@@ -13,7 +13,7 @@ import React, { useState } from "react";
 */
 
 const ActFunction = () => {
-    const [name, setname] = useState("");
+  const [name, setname] = useState("");
   return (
     <div>
       <h1>Act Function</h1>

@@ -9,6 +9,7 @@ test("Act Function Example",async ()=>{
   // await userEvent.type(el,"React")
 
   //act function will update the state first then the accert function will be called
+  // eslint-disable-next-line testing-library/no-unnecessary-act
   await act(async()=>{
     await userEvent.type(el,"React")
   })

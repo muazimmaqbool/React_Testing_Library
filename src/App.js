@@ -80,8 +80,8 @@ function App() {
       {/* <TestElementsJavascriptQuery/> */}
       {/* <QueryingWithinElements/> */}
 
-      <OnChange_Testing/>
-      {/* <ActFunction/> */}
+      {/* <OnChange_Testing/> */}
+      <ActFunction/>
 
       {/* <TestComp_Props/> */}
       {/* <FunctionPropsTesting/> */}
