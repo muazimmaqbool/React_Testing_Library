@@ -78,9 +78,9 @@ function App() {
       {/* <FindBy_FindAllBy/> */}
 
       {/* <TestElementsJavascriptQuery/> */}
-      <QueryingWithinElements/>
+      {/* <QueryingWithinElements/> */}
 
-      {/* <OnChange_Testing/> */}
+      <OnChange_Testing/>
       {/* <ActFunction/> */}
 
       {/* <TestComp_Props/> */}
