@@ -81,9 +81,9 @@ function App() {
       {/* <QueryingWithinElements/> */}
 
       {/* <OnChange_Testing/> */}
-      <ActFunction/>
+      {/* <ActFunction/> */}
 
-      {/* <TestComp_Props/> */}
+      <TestComp_Props/>
       {/* <FunctionPropsTesting/> */}
       {/* <Debugging/> */}
 
