@@ -1,6 +1,7 @@
 import { logRoles, prettyDOM, render, screen } from "@testing-library/react"
 import Debugging from "./Debugging"
 
+//automtic debugging here when it fails
 test("Testing components",()=>{
     render(<Debugging/>)
     const el=screen.getByText("Heading 2")
@@ -17,5 +18,5 @@ test("pretty Dom ,debug func, logRoles debugging",()=>{
     //or you can ue debug function
     //debug()
 
-    logRoles(container)
+   logRoles(container)
 })

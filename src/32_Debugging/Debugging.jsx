@@ -24,7 +24,7 @@ import React, { useState } from "react";
 
 -> debug functon: also prints html/jsx part of your code in the console
 
-->DEBUG_PRINT_LIMIT=10000 npm test: sometimes our code is huge like 1000+ lines and 1500+ lines and to
+->DEBUG_PRINT_LIMIT=10000 npm test: sometimes our code is huge like 10000+ lines and 15000+ lines and to
     print all the code in the console. in that case we use this: DEBUG_PRINT_LIMIT=10000 npm test
     i.e it increases the limit of lines to be printed on the console, by default limit is 7000 lines
     to apply this: write this in console: DEBUG_PRINT_LIMIT=10000 npm test , limit is upto you what ever you want to set

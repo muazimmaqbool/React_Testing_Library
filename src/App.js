@@ -84,8 +84,8 @@ function App() {
       {/* <ActFunction/> */}
 
       {/* <TestComp_Props/> */}
-      <FunctionPropsTesting/>
-      {/* <Debugging/> */}
+      {/* <FunctionPropsTesting/> */}
+      <Debugging/>
 
       {/* <Playground_Extension/> */}
 
