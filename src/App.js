@@ -83,8 +83,8 @@ function App() {
       {/* <OnChange_Testing/> */}
       {/* <ActFunction/> */}
 
-      <TestComp_Props/>
-      {/* <FunctionPropsTesting/> */}
+      {/* <TestComp_Props/> */}
+      <FunctionPropsTesting/>
       {/* <Debugging/> */}
 
       {/* <Playground_Extension/> */}

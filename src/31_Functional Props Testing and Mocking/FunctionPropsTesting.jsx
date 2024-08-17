@@ -11,7 +11,7 @@ import React from 'react'
  
     ->Function Mocking: whenever we do testing of functions we also need to do mocking of functions
 
-    ->In This exmaple we will add click event to the component and add props and these props will contains
+    ->In This exmaple we will add click event to the component and add props and these props will contain
     functions
 
 */
