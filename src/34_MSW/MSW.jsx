@@ -3,7 +3,7 @@ import React from 'react'
 /*
 lec #45 | MSW and HTTP Requests Testing
 
-?NOTE: Mocking means: make dummy of something like making dummy of an API
+?NOTE: Mocking means: making dummy of something. example: making dummy of an API
 visit: https://mswjs.io/docs/getting-started
 ->What is MSW:
     MSW (Mock Service Worker) basically it is used to mock APIs
