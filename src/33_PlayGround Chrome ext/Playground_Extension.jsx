@@ -13,7 +13,7 @@ import React, { useState } from 'react'
   Testing Playground >click on it
   the click on its selector on top left of the testing playground and then when you hover over the
   elements it will show you the role of each ui element an then you can run test cases easily
-  -> will you show you everything that is inside the element and it will give you suggestion on top
+  -> will show you everything that is inside the element and it will give you suggestion on top
   what will be better to you use with this element for testing it
 */
 

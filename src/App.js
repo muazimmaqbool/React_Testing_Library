@@ -85,9 +85,9 @@ function App() {
 
       {/* <TestComp_Props/> */}
       {/* <FunctionPropsTesting/> */}
-      <Debugging/>
+      {/* <Debugging/> */}
 
-      {/* <Playground_Extension/> */}
+      <Playground_Extension/>
 
       {/* <API_Testing/> */}
 
