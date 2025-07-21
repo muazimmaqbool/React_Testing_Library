@@ -90,7 +90,7 @@ function App() {
 
       {/* <Playground_Extension/> */}
 
-      <MSW/>
+      {/* <MSW/> */}
       {/* <API_Testing/> */}
 
     </div>
